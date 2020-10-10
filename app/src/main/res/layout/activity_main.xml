@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--para quitar el action bar solo tenemos que ir a styles y en la funcion
+parent si trae DarkActionBar.. namas borramos el dark ponemos NoActionBar-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<include
+    android:id="@+id/miactionbar"
+    layout="@layout/miactionb"
+    >
+
+</include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mirecycle"
+        android:layout_width="408dp"
+        android:layout_height="598dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/miactionbar"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

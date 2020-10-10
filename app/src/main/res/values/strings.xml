@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TareaMascotas</string>
+    <string name="saludo">Como estas</string>
+    <string name="HuesoLike">HuesoLike</string>
+    <string name="HuesoDorado">HuesoDorado</string>
+    <string name="ContadorLike">ContadorLike</string>
+
+    <string name="item1">CONTACTOS</string>
+    <string name="item2">ACERCA DE</string>
+    <string name="strella"></string>
+    <string name="todo">TODO</string>
+</resources>

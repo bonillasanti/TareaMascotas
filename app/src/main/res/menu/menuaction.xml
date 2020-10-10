@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <!--el atributo showAsAction es para mostrar fuera de los 3 puntitos-->
+
+    <item
+        android:id="@+id/ranqueo"
+        android:icon="@drawable/outline_star_border_black_18dp"
+        android:menuCategory="container"
+        android:title="todo"
+        app:showAsAction="always" />
+
+    <item android:title="@string/item1"
+        android:id="@+id/Item1"
+                />
+    <item android:title="@string/item2"
+        android:id="@+id/Item2"
+        />
+
+
+</menu>
